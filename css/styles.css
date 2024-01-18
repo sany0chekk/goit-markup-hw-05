@@ -422,19 +422,17 @@ main{
     background-color: #31d0aa;
 }
 
-.footer-form{
+.footer-mailing{
     margin-left: 80px;
+}
+
+.footer-form{
     display: flex;
     align-items: flex-end;
     gap: 24px;
 }
 
-.footer-mailing-title{
-    margin: 0;
-}
-
 .footer-form-input{
-    display: block;
     outline: none;
     padding: 0 16px;
     width: 264px;
@@ -447,9 +445,8 @@ main{
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.04em;
     color: #FFF;
-    margin-top: 16px;
 }
 
 .footer-form-input::placeholder{
@@ -457,8 +454,8 @@ main{
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.48px;
-    color: #ffffff83;
+    letter-spacing: 0.04em;
+    color: #FFF;
 }
 
 .footer-form-btn{
